@@ -10,8 +10,11 @@ amarillo=#f5ae0f
 	font-weight: normal;
 	font-style: normal;
 
+p
+	font-family 'Quattrocento', serif;
+
 body
-	background #efefef
+	background #fff
 	font-size 16px
 	font-family arial
 header
@@ -38,10 +41,13 @@ header
 
 		color #fff
 		width 83%
+		h1,h2
+			font-family 'Ubuntu', sans-serif
 
 		h1
 			margin 5px 0 0 0	
 			font-size 20px
+			text-shadow 3px 3px 0px black
 		h2
 			margin 0 0 5px 0
 			font-size 14px
@@ -63,7 +69,7 @@ header
 			height 49px
 			width 49px
 section.carreras
-	background #efefef
+	background #fff
 	text-align center
 	position relative 
 	&:before
@@ -87,11 +93,10 @@ section.carreras
 		figcaption
 			h3
 				font-size 14px
+				font-family 'Ubuntu', sans-serif
+
 		img
-			border-top 4px solid amarillo
-			border-right 4px solid amarillo
-			border-left 4px solid azul
-			border-bottom 4px solid azul
+			border 4px solid azul
 			width 77px
 			height 77px
 			border-radius 50%
@@ -140,11 +145,14 @@ section.informes
 		font-weight bold
 		font-style italic
 	p.face,p.twitter,p.youtube,p.google,p.ins,p.cont
+		text-align center
 		font-family icomoon
 		font-size 25px
-		width 45px
+		width 43px
 		display inline-block
-		margin-left 5px 
+		margin-left 4.5px 
+		color amarillo
+		
 	p.face:before
 		content: "\e603";
 	p.twitter:before
@@ -166,3 +174,4 @@ footer
 		margin 5px 0 0 0
 	p.contacto
 		font-weight bold
+
