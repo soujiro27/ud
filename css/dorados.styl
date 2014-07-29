@@ -147,6 +147,7 @@ section.noticias
 		text-align left
 		
 section.informes
+	text-align center
 	h2
 		margin 0
 		background azul
@@ -160,10 +161,10 @@ section.informes
 	p.face,p.twitter,p.youtube,p.google,p.ins,p.cont
 		text-align center
 		font-family icomoon
-		font-size 25px
+		font-size 30px
 		width 43px
 		display inline-block
-		margin-left 4.5px 
+		margin-left 1% 
 		color amarillo
 		
 	p.face:before
@@ -181,10 +182,10 @@ section.informes
 
 	button
 		width: 50%
-		margin 0 23%
+		margin 10px 23%
 		padding 5px 
 		text-align center
-		border 2px solid flatAmarillo
+		border 3px solid #fff
 		background azul
 		color white
 		border-radius 5px
@@ -194,32 +195,34 @@ section.informes
 			font-size 14px
 		label
 			display block
-		input[type=text], input[type=email]
-			margin 10px 0
+		input[type=text], input[type=email],input[type=tel]
+			width: 90%
+			margin 10px 5%
+			display block
 			padding 4px
-			border 3px solid flatAmarillo
-		div.select
-			position relative
-			font-family icomoon
-			&:before
-				content: "\e606"
-				position absolute
-				z-index 999
-				color white
-				font-size 22px
-				right 35px 
-				top 15px
-
+			border 3px solid amarillo
+		
 		select
-			-webkit-appearance: none;  /*Removes default chrome and safari style*/
-			-moz-appearance: none
 			width: 90%
 			margin 10px 0
 			background azul
 			color #fff
-			border 3px solid amarillo
 			padding 4px
 			position relative
+			border-radius 10px
+			box-shadow 3px 3px 5px black
+
+		input[type=submit]
+			width: 40%
+			margin 10px 29%
+			padding 5px 
+			text-align center
+			background amarillo
+			color azul
+			border-radius 8px
+			border 3px solid #fff
+			display block
+			
 
 footer
 	background azul

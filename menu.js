@@ -2,6 +2,12 @@ if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 	else { var click = 'click'; }
 
 
+ $(function(){
+ 	$('form').hide();
+ 	$('button').on('click',function(){
+ 		$('form').slideToggle('slow');
+ 	});
+});
 
 	
 	/*	Reveal Menu */
@@ -58,6 +64,3 @@ if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 	});
 
 
-// $(function(){
-// 	$('form').hide();
-// });
