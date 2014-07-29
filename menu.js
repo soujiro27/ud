@@ -56,5 +56,3 @@ if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 		e.preventDefault();
 		closeMenu();
 	});
-
-

@@ -87,10 +87,11 @@ section.carreras
 	figure.bolita
 		vertical-align top
 		display inline-block
-		margin 0px 35px 75px 35px 		
-		width 80px
-		height 80px
+		margin 0px 10px 65px 10px 		
+		width 120px
+		height 105px
 		figcaption
+			text-align center
 			h3
 				font-size 14px
 				font-family 'Ubuntu', sans-serif
@@ -102,12 +103,22 @@ section.carreras
 			border-radius 50%
 section.mision
 	background #fff
-	border-bottom 5px solid #f5ae0f
+	border-bottom 5px solid azul
+	position relative
+	&:before
+		border-bottom 20px solid azul
+		border-left 20px solid transparent
+		border-right 20px solid transparent
+		content ""
+		position: absolute
+		bottom 0
+		left 45%
 	h2
 		background azul
 		color #fff
 		text-align center
 		padding 4px
+		margin 0
 	p
 		padding 8px
 		text-align left
@@ -122,11 +133,11 @@ section.noticias
 		background amarillo
 		color #fff
 		margin 0
+		padding 4px
 
 	figure
-		
-		width 90%
-		margin 2% 5%
+		margin 0
+		width 100%
 		img
 			width 100%
 	p
