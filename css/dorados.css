@@ -32,7 +32,7 @@ header div.menu p {
   padding: 9px;
 }
 header div.menu p:before {
-  content: "\e606";
+  content: "\e607";
 }
 header div.titulos {
   color: #fff;
@@ -199,6 +199,56 @@ section.informes p.ins:before {
 }
 section.informes p.cont:before {
   content: "\e601";
+}
+section.informes button {
+  width: 50%;
+  margin: 0 23%;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #f5d313;
+  background: #133361;
+  color: #fff;
+  border-radius: 5px;
+}
+section.informes form {
+  text-align: center;
+}
+section.informes form p {
+  font-size: 14px;
+}
+section.informes form label {
+  display: block;
+}
+section.informes form input[type=text],
+section.informes form input[type=email] {
+  margin: 10px 0;
+  padding: 4px;
+  border: 3px solid #f5d313;
+}
+section.informes form div.select {
+  position: relative;
+  font-family: icomoon;
+}
+section.informes form div.select:before {
+  content: "\e606";
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  font-size: 22px;
+  right: 35px;
+  top: 15px;
+}
+section.informes form select {
+  -webkit-appearance: none;
+/*Removes default chrome and safari style*/
+  -moz-appearance: none;
+  width: 90%;
+  margin: 10px 0;
+  background: #133361;
+  color: #fff;
+  border: 3px solid #f5ae0f;
+  padding: 4px;
+  position: relative;
 }
 footer {
   background: #133361;

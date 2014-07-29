@@ -1,5 +1,7 @@
 azul=#133361
 amarillo=#f5ae0f
+flatAmarillo=#f5d313
+flatAzul=#5dade2
 @font-face
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?fz9anl');
@@ -36,7 +38,7 @@ header
 			margin 0
 			padding 9px
 			&:before
-				content "\e606"
+				content "\e607"
 	div.titulos
 
 		color #fff
@@ -176,6 +178,49 @@ section.informes
 		content: "\e600";
 	p.cont:before
 		content: "\e601";
+
+	button
+		width: 50%
+		margin 0 23%
+		padding 5px 
+		text-align center
+		border 2px solid flatAmarillo
+		background azul
+		color white
+		border-radius 5px
+	form
+		text-align center
+		p
+			font-size 14px
+		label
+			display block
+		input[type=text], input[type=email]
+			margin 10px 0
+			padding 4px
+			border 3px solid flatAmarillo
+		div.select
+			position relative
+			font-family icomoon
+			&:before
+				content: "\e606"
+				position absolute
+				z-index 999
+				color white
+				font-size 22px
+				right 35px 
+				top 15px
+
+		select
+			-webkit-appearance: none;  /*Removes default chrome and safari style*/
+			-moz-appearance: none
+			width: 90%
+			margin 10px 0
+			background azul
+			color #fff
+			border 3px solid amarillo
+			padding 4px
+			position relative
+
 footer
 	background azul
 	color #fff
